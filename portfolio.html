@@ -1,0 +1,115 @@
+<html>
+    <head>
+        <title>Portfolio</title>
+        <link rel="icon" href="https://cdn.pixabay.com/photo/2023/03/16/08/51/flowers-7856225_640.jpg" type="img/x icon">
+        <style>
+            h1{
+                font-size: 100px;
+                font-style: oblique;
+                color: rgb(240, 126, 27);
+                font-weight: bold;
+            }
+            p{
+                font-size: 30px;
+                color: rgb(255, 145, 0);
+                font-style: oblique;
+                font-weight: bold;
+            }
+            h2{
+                font-size: 80px;
+                font-style: oblique;
+                font-weight: bold;
+                color: darkorange;
+            }
+            body{
+                background-image: url(https://cdn.pixabay.com/photo/2022/03/31/14/53/camp-7103189_960_720.png);
+                background-repeat: no-repeat;
+                background-size:100% 100%;
+                background-position: center;
+            }
+            li{
+                font-size: 30px;
+                color: rgb(255, 145, 0);
+                font-style: oblique;
+                font-weight: bold;
+            }
+            .card-container {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            .card {
+                background-color: #f2f2f2;
+                padding: 20px;
+                margin: 20px;
+                border: 1px solid #ccc;
+                border-radius: 20px;
+                box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+                width: 40%;
+                text-align: center;
+            }
+            .card:hover {
+                transform: scale(1.1);
+                transition: all 0.5s ease-in-out;
+            }
+
+            /* Add media queries for responsiveness */
+            @media only screen and (max-width: 1200px) {
+                .card {
+                    width: 60%;
+                }
+            }
+            @media only screen and (max-width: 992px) {
+                .card {
+                    width: 80%;
+                }
+            }
+            @media only screen and (max-width: 768px) {
+                .card {
+                    width: 90%;
+                }
+            }
+            @media only screen and (max-width: 480px) {
+                .card {
+                    width: 100%;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <h1><marquee direction="left" scrollamount="9">The Showcase Room : My Portfolio</marquee></h1>
+        <br>
+        <div class="card-container">
+            <div class="card">
+                <h2>About Me</h2>
+                <p>Hello there! myself Parnika and I proudly belong to INDIA</p>
+                <p>I live in Ambala in haryana</p>
+                <a href = "weather.html">bjdsvb</a>
+            </div>
+            <div class="card">
+                <h2>Accomplishments</h2>
+                <p>
+                    <ul>
+                        <li>Shefi scholar with rank 44 </li>
+                        <li>Ranker in Newton school junior coding olympiad</li>
+                        <li>Certified python and web designer </li>
+                        <li>Virtually Interned in 4 companies</li>
+                        <li>Solved 90+ problems on Geek For Geeks</li>
+                    </ul>
+                </p>
+            </div>
+            <div class="card">
+                <h2>Interests</h2>
+                <p>Aside from coding , I love to play chess and study about business and entrepreneurship </p>
+            </div>
+            <div class="card">
+                <h2>Future Goals</h2>
+                <p>Aspiring to become a successful entrepreneur after gaining enough experience in the corporate sector. </p>
+            </div>
+            <div class="card">
+                <h2>Education</h2>
+                <p>Currently I am in my 1st year of Btech Cse AI in chitkara university rajpura. I have completed my 10th and 12th from cbse board.</p>
+            </div>
+        </div>
+    </body>
+</html>
